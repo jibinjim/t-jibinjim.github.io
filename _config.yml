@@ -1,0 +1,26 @@
+# Site settings ...
+uri: jibinjose.com
+url: https://jibinjose.com
+name: Jibin Jose
+title: Jibin Jose
+email: jj@jibinjose.com
+author: Jibin Jose
+baseurl: ""
+keywords: "Jibin Jose, Flipmotion, jibinjim, jj, Rethink"
+description: "Personal website of Jibin Jose"
+social_username: jibinjim
+
+# Build settings ...
+sass:
+  style: compressed
+markdown: kramdown
+encoding: "utf-8"
+paginate: 5
+permalink: /post/:title
+paginate_path: "/page/:num/"
+
+# Plugins ...
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
